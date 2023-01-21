@@ -6,5 +6,7 @@
 * JavaScript
 
 ### Using JavaScript
-* window.onscroll
+* window.onscroll Event
 * window.innerHeight
+* window.scrollY
+* document.body.clientHeight
