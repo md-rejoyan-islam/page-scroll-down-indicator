@@ -1,5 +1,6 @@
 const indicator = document.getElementById("indicator");
 
+// page scroll event
 window.onscroll = (e) => {
   const pageScroll = window.screenY;
   const totalPageHight = document.body.scrollHeight;
