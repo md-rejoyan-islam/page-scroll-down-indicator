@@ -4,3 +4,7 @@
 * HTML:5
 * Tailwind CSS
 * JavaScript
+
+### Using JavaScript
+* window.onscroll
+* window.innerHeight
