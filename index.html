@@ -1,98 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>page scroll down indicator</title>
-</head>
-<body>
-    <header class="shadow-md grid items-center  fixed  top-0 h-20 w-full bg-white" id="header">
-        <h1 class="px-4  lg:text-4xl font-bold text-2xl text-center  ">Welcome to my website</h1>
-        <div class="w-0 h-1 bg-blue-600 absolute top-20" id="indicator"></div>
+  </head>
+  <body>
+    <header
+      class="shadow-md grid items-center fixed top-0 h-20 w-full bg-white"
+      id="header"
+    >
+      <h1 class="px-4 lg:text-4xl font-bold text-2xl text-center">
+        Welcome to my website
+      </h1>
+      <div class="w-0 h-1 bg-blue-600 absolute top-20" id="indicator"></div>
     </header>
-    
-<main class="px-4 md:px-24 mt-24"> 
-    <div>
-        <h1 class="my-5 text-xl font-bold text-pink-600 text-center">Scroll the page to show scroll down indicator </h1>
-    </div>
-    <div class="about my-5 text-justify">
-        <h1 class="text-2xl font-bold my-2">
-            Page Scroll Down Indicator Line
+
+    <main class="px-4 md:px-24 mt-24">
+      <div>
+        <h1 class="my-5 text-xl font-bold text-pink-600 text-center">
+          Scroll the page to show scroll down indicator
         </h1>
+      </div>
+      <div class="about my-5 text-justify">
+        <h1 class="text-2xl font-bold my-2">Page Scroll Down Indicator Line</h1>
         <p class="text-lg justify-full">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque consectetur obcaecati minus. Nisi, adipisci modi maxime provident natus minima laboriosam porro quisquam quae, distinctio dicta doloribus nihil eligendi repellat labore animi. Hic sit neque ea aliquid nisi quos asperiores, error sunt dignissimos? Nemo error ut illo enim maxime facilis fugit, quod sapiente nesciunt harum voluptatem tenetur eaque fuga officia! Quos nesciunt alias quia officiis vitae similique suscipit doloremque quod nobis sapiente. Id ipsam magnam voluptates repellat, sunt, voluptatibus est soluta quis vitae molestias eum debitis reprehenderit, accusantium dolore beatae tenetur! Necessitatibus adipisci ratione explicabo quo dolorem fuga maxime architecto consequatur! Modi iusto, labore illum, voluptas ipsum, ad sapiente temporibus nobis quae fugit animi accusamus? Veniam alias nisi voluptatibus, ipsum nihil illo iste perferendis vel totam quae officia, unde explicabo molestias perspiciatis eligendi molestiae culpa! Aspernatur at enim, ullam sunt aliquam molestiae totam dicta odio.       
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque
+          consectetur obcaecati minus. Nisi, adipisci modi maxime provident
+          natus minima laboriosam porro quisquam quae, distinctio dicta
+          doloribus nihil eligendi repellat labore animi. Hic sit neque ea
+          aliquid nisi quos asperiores, error sunt dignissimos? Nemo error ut
+          illo enim maxime facilis fugit, quod sapiente nesciunt harum
+          voluptatem tenetur eaque fuga officia! Quos nesciunt alias quia
+          officiis vitae similique suscipit doloremque quod nobis sapiente. Id
+          ipsam magnam voluptates repellat, sunt, voluptatibus est soluta quis
+          vitae molestias eum debitis reprehenderit, accusantium dolore beatae
+          tenetur! Necessitatibus adipisci ratione explicabo quo dolorem fuga
+          maxime architecto consequatur! Modi iusto, labore illum, voluptas
+          ipsum, ad sapiente temporibus nobis quae fugit animi accusamus? Veniam
+          alias nisi voluptatibus, ipsum nihil illo iste perferendis vel totam
+          quae officia, unde explicabo molestias perspiciatis eligendi molestiae
+          culpa! Aspernatur at enim, ullam sunt aliquam molestiae totam dicta
+          odio.
         </p>
         <p class="text-lg justify-full">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque consectetur obcaecati minus. Nisi, adipisci modi maxime provident natus minima laboriosam porro quisquam quae, distinctio dicta doloribus nihil eligendi repellat labore animi. Hic sit neque ea aliquid nisi quos asperiores, error sunt dignissimos? Nemo error ut illo enim maxime facilis fugit, quod sapiente nesciunt harum voluptatem tenetur eaque fuga officia! Quos nesciunt alias quia officiis vitae similique suscipit doloremque quod nobis sapiente.        
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque
+          consectetur obcaecati minus. Nisi, adipisci modi maxime provident
+          natus minima laboriosam porro quisquam quae, distinctio dicta
+          doloribus nihil eligendi repellat labore animi. Hic sit neque ea
+          aliquid nisi quos asperiores, error sunt dignissimos? Nemo error ut
+          illo enim maxime facilis fugit, quod sapiente nesciunt harum
+          voluptatem tenetur eaque fuga officia! Quos nesciunt alias quia
+          officiis vitae similique suscipit doloremque quod nobis sapiente.
         </p>
-    </div>
-    <div class="about my-5 text-justify">
-        <h1 class="text-2xl font-bold my-2">
-            About section
-        </h1>
+      </div>
+      <div class="about my-5 text-justify">
+        <h1 class="text-2xl font-bold my-2">About section</h1>
         <p class="text-lg justify-full">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque consectetur obcaecati minus. Nisi, adipisci modi maxime provident natus minima laboriosam porro quisquam quae, distinctio dicta doloribus nihil eligendi repellat labore animi. Hic sit neque ea aliquid nisi quos asperiores, error sunt dignissimos? Nemo error ut illo enim maxime facilis fugit, quod sapiente nesciunt harum voluptatem tenetur eaque fuga officia! Quos nesciunt alias quia officiis vitae similique suscipit doloremque quod nobis sapiente. Id ipsam magnam voluptates repellat, sunt, voluptatibus est soluta quis vitae molestias eum debitis reprehenderit, accusantium dolore beatae tenetur! Necessitatibus adipisci ratione explicabo quo dolorem fuga maxime architecto consequatur! Modi iusto, labore illum, voluptas ipsum, ad sapiente temporibus nobis quae fugit animi accusamus? Veniam alias nisi voluptatibus, ipsum nihil illo iste perferendis vel totam quae officia, unde explicabo molestias perspiciatis eligendi molestiae culpa! Aspernatur at enim, ullam sunt aliquam molestiae totam dicta odio.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque
+          consectetur obcaecati minus. Nisi, adipisci modi maxime provident
+          natus minima laboriosam porro quisquam quae, distinctio dicta
+          doloribus nihil eligendi repellat labore animi. Hic sit neque ea
+          aliquid nisi quos asperiores, error sunt dignissimos? Nemo error ut
+          illo enim maxime facilis fugit, quod sapiente nesciunt harum
+          voluptatem tenetur eaque fuga officia! Quos nesciunt alias quia
+          officiis vitae similique suscipit doloremque quod nobis sapiente. Id
+          ipsam magnam voluptates repellat, sunt, voluptatibus est soluta quis
+          vitae molestias eum debitis reprehenderit, accusantium dolore beatae
+          tenetur! Necessitatibus adipisci ratione explicabo quo dolorem fuga
+          maxime architecto consequatur! Modi iusto, labore illum, voluptas
+          ipsum, ad sapiente temporibus nobis quae fugit animi accusamus? Veniam
+          alias nisi voluptatibus, ipsum nihil illo iste perferendis vel totam
+          quae officia, unde explicabo molestias perspiciatis eligendi molestiae
+          culpa! Aspernatur at enim, ullam sunt aliquam molestiae totam dicta
+          odio.
         </p>
-    </div>
-    <div class="Dashboard my-5 text-justify">
-        <h1 class="text-2xl font-bold my-2">
-            Dashboard section
-        </h1>
+      </div>
+      <div class="Dashboard my-5 text-justify">
+        <h1 class="text-2xl font-bold my-2">Dashboard section</h1>
         <p class="text-lg justify-full">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque consectetur obcaecati minus. Nisi, adipisci modi maxime provident natus minima laboriosam porro quisquam quae, distinctio dicta doloribus nihil eligendi repellat labore animi. Hic sit neque ea aliquid nisi quos asperiores, error sunt dignissimos? Nemo error ut illo enim maxime facilis fugit, quod sapiente nesciunt harum voluptatem tenetur eaque fuga officia! Quos nesciunt alias quia officiis vitae similique suscipit doloremque quod nobis sapiente. Id ipsam magnam voluptates repellat, sunt, voluptatibus est soluta quis vitae molestias eum debitis reprehenderit, accusantium dolore beatae tenetur! Necessitatibus adipisci ratione explicabo quo dolorem fuga maxime architecto consequatur! Modi iusto, labore illum, voluptas ipsum, ad sapiente temporibus nobis quae fugit animi accusamus? Veniam alias nisi voluptatibus, ipsum nihil illo iste perferendis vel totam quae officia, unde explicabo molestias perspiciatis eligendi molestiae culpa! Aspernatur at enim, ullam sunt aliquam molestiae totam dicta odio.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque
+          consectetur obcaecati minus. Nisi, adipisci modi maxime provident
+          natus minima laboriosam porro quisquam quae, distinctio dicta
+          doloribus nihil eligendi repellat labore animi. Hic sit neque ea
+          aliquid nisi quos asperiores, error sunt dignissimos? Nemo error ut
+          illo enim maxime facilis fugit, quod sapiente nesciunt harum
+          voluptatem tenetur eaque fuga officia! Quos nesciunt alias quia
+          officiis vitae similique suscipit doloremque quod nobis sapiente. Id
+          ipsam magnam voluptates repellat, sunt, voluptatibus est soluta quis
+          vitae molestias eum debitis reprehenderit, accusantium dolore beatae
+          tenetur! Necessitatibus adipisci ratione explicabo quo dolorem fuga
+          maxime architecto consequatur! Modi iusto, labore illum, voluptas
+          ipsum, ad sapiente temporibus nobis quae fugit animi accusamus? Veniam
+          alias nisi voluptatibus, ipsum nihil illo iste perferendis vel totam
+          quae officia, unde explicabo molestias perspiciatis eligendi molestiae
+          culpa! Aspernatur at enim, ullam sunt aliquam molestiae totam dicta
+          odio.
         </p>
         <ul class="list-disc px-10">
-            <li>User Account</li>
-            <li>Profile Picture</li>
-            <li>Messages List</li>
+          <li>User Account</li>
+          <li>Profile Picture</li>
+          <li>Messages List</li>
         </ul>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi accusamus inventore eligendi quos corporis. Ipsam atque voluptas, unde consequatur reprehenderit saepe perferendis vero illo magnam earum assumenda excepturi officiis aliquam nostrum suscipit nulla ducimus aperiam dolor in nobis, obcaecati deleniti? Magni minima corporis dolorum, nobis asperiores neque cumque nisi eaque.</p>
-    </div>
-    <div class="Protfolio my-5 text-justify">
-        <h1 class="text-2xl font-bold my-2">
-            Protfolio section
-        </h1>
-        <p class="text-lg justify-full">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque consectetur obcaecati minus. Nisi, adipisci modi maxime provident natus minima laboriosam porro quisquam quae, distinctio dicta doloribus nihil eligendi repellat labore animi. Hic sit neque ea aliquid nisi quos asperiores, error sunt dignissimos? Nemo error ut illo enim maxime facilis fugit, quod sapiente nesciunt harum voluptatem tenetur eaque fuga officia! Quos nesciunt alias quia officiis vitae similique suscipit doloremque quod nobis sapiente. Id ipsam magnam voluptates repellat, sunt, voluptatibus est soluta quis vitae molestias eum debitis reprehenderit, accusantium dolore beatae tenetur! Necessitatibus adipisci ratione explicabo quo dolorem fuga maxime architecto consequatur! Modi iusto, labore illum, voluptas ipsum, ad sapiente temporibus nobis quae fugit animi accusamus? Veniam alias nisi voluptatibus, ipsum nihil illo iste perferendis vel totam quae officia, unde explicabo molestias perspiciatis eligendi molestiae culpa! Aspernatur at enim, ullam sunt aliquam molestiae totam dicta odio.
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+          accusamus inventore eligendi quos corporis. Ipsam atque voluptas, unde
+          consequatur reprehenderit saepe perferendis vero illo magnam earum
+          assumenda excepturi officiis aliquam nostrum suscipit nulla ducimus
+          aperiam dolor in nobis, obcaecati deleniti? Magni minima corporis
+          dolorum, nobis asperiores neque cumque nisi eaque.
         </p>
-    </div>
-    <div class="Blog my-5 text-justify">
-        <h1 class="text-2xl font-bold my-2">
-            Blog section
-        </h1>
+      </div>
+      <div class="Protfolio my-5 text-justify">
+        <h1 class="text-2xl font-bold my-2">Protfolio section</h1>
         <p class="text-lg justify-full">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque consectetur obcaecati minus. Nisi, adipisci modi maxime provident natus minima laboriosam porro quisquam quae, distinctio dicta doloribus nihil eligendi repellat labore animi. Hic sit neque ea aliquid nisi quos asperiores, error sunt dignissimos? Nemo error ut illo enim maxime facilis fugit, quod sapiente nesciunt harum voluptatem tenetur eaque fuga officia! Quos nesciunt alias quia officiis vitae similique suscipit doloremque quod nobis sapiente. Id ipsam magnam voluptates repellat, sunt, voluptatibus est soluta quis vitae molestias eum debitis reprehenderit, accusantium dolore beatae tenetur! Necessitatibus adipisci ratione explicabo quo dolorem fuga maxime architecto consequatur! Modi iusto, labore illum, voluptas ipsum, ad sapiente temporibus nobis quae fugit animi accusamus? Veniam alias nisi voluptatibus, ipsum nihil illo iste perferendis vel totam quae officia, unde explicabo molestias perspiciatis eligendi molestiae culpa! Aspernatur at enim, ullam sunt aliquam molestiae totam dicta odio.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque
+          consectetur obcaecati minus. Nisi, adipisci modi maxime provident
+          natus minima laboriosam porro quisquam quae, distinctio dicta
+          doloribus nihil eligendi repellat labore animi. Hic sit neque ea
+          aliquid nisi quos asperiores, error sunt dignissimos? Nemo error ut
+          illo enim maxime facilis fugit, quod sapiente nesciunt harum
+          voluptatem tenetur eaque fuga officia! Quos nesciunt alias quia
+          officiis vitae similique suscipit doloremque quod nobis sapiente. Id
+          ipsam magnam voluptates repellat, sunt, voluptatibus est soluta quis
+          vitae molestias eum debitis reprehenderit, accusantium dolore beatae
+          tenetur! Necessitatibus adipisci ratione explicabo quo dolorem fuga
+          maxime architecto consequatur! Modi iusto, labore illum, voluptas
+          ipsum, ad sapiente temporibus nobis quae fugit animi accusamus? Veniam
+          alias nisi voluptatibus, ipsum nihil illo iste perferendis vel totam
+          quae officia, unde explicabo molestias perspiciatis eligendi molestiae
+          culpa! Aspernatur at enim, ullam sunt aliquam molestiae totam dicta
+          odio.
         </p>
-    </div>
-    <div class="Services my-5 text-justify">
-        <h1 class="text-2xl font-bold my-2">
-            Services section
-        </h1>
+      </div>
+      <div class="Blog my-5 text-justify">
+        <h1 class="text-2xl font-bold my-2">Blog section</h1>
         <p class="text-lg justify-full">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque consectetur obcaecati minus. Nisi, adipisci modi maxime provident natus minima laboriosam porro quisquam quae, distinctio dicta doloribus nihil eligendi repellat labore animi. Hic sit neque ea aliquid nisi quos asperiores, error sunt dignissimos? Nemo error ut illo enim maxime facilis fugit, quod sapiente nesciunt harum voluptatem tenetur eaque fuga officia! Quos nesciunt alias quia officiis vitae similique suscipit doloremque quod nobis sapiente. Id ipsam magnam voluptates repellat, sunt, voluptatibus est soluta quis vitae molestias eum debitis reprehenderit, accusantium dolore beatae tenetur! Necessitatibus adipisci ratione explicabo quo dolorem fuga maxime architecto consequatur! Modi iusto, labore illum, voluptas ipsum, ad sapiente temporibus nobis quae fugit animi accusamus? Veniam alias nisi voluptatibus, ipsum nihil illo iste perferendis vel totam quae officia, unde explicabo molestias perspiciatis eligendi molestiae culpa! Aspernatur at enim, ullam sunt aliquam molestiae totam dicta odio.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque
+          consectetur obcaecati minus. Nisi, adipisci modi maxime provident
+          natus minima laboriosam porro quisquam quae, distinctio dicta
+          doloribus nihil eligendi repellat labore animi. Hic sit neque ea
+          aliquid nisi quos asperiores, error sunt dignissimos? Nemo error ut
+          illo enim maxime facilis fugit, quod sapiente nesciunt harum
+          voluptatem tenetur eaque fuga officia! Quos nesciunt alias quia
+          officiis vitae similique suscipit doloremque quod nobis sapiente. Id
+          ipsam magnam voluptates repellat, sunt, voluptatibus est soluta quis
+          vitae molestias eum debitis reprehenderit, accusantium dolore beatae
+          tenetur! Necessitatibus adipisci ratione explicabo quo dolorem fuga
+          maxime architecto consequatur! Modi iusto, labore illum, voluptas
+          ipsum, ad sapiente temporibus nobis quae fugit animi accusamus? Veniam
+          alias nisi voluptatibus, ipsum nihil illo iste perferendis vel totam
+          quae officia, unde explicabo molestias perspiciatis eligendi molestiae
+          culpa! Aspernatur at enim, ullam sunt aliquam molestiae totam dicta
+          odio.
         </p>
-    </div>
-    <div class="Dashboard my-5 text-justify">
-        <h1 class="text-2xl font-bold my-2">
-            Dashboard section
-        </h1>
+      </div>
+      <div class="Services my-5 text-justify">
+        <h1 class="text-2xl font-bold my-2">Services section</h1>
         <p class="text-lg justify-full">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque consectetur obcaecati minus. Nisi, adipisci modi maxime provident natus minima laboriosam porro quisquam quae, distinctio dicta doloribus nihil eligendi repellat labore animi. Hic sit neque ea aliquid nisi quos asperiores, error sunt dignissimos? Nemo error ut illo enim maxime facilis fugit, quod sapiente nesciunt harum voluptatem tenetur eaque fuga officia! Quos nesciunt alias quia officiis vitae similique suscipit doloremque quod nobis sapiente. Id ipsam magnam voluptates repellat, sunt, voluptatibus est soluta quis vitae molestias eum debitis reprehenderit, accusantium dolore beatae tenetur! Necessitatibus adipisci ratione explicabo quo dolorem fuga maxime architecto consequatur! Modi iusto, labore illum, voluptas ipsum, ad sapiente temporibus nobis quae fugit animi accusamus? Veniam alias nisi voluptatibus, ipsum nihil illo iste perferendis vel totam quae officia, unde explicabo molestias perspiciatis eligendi molestiae culpa! Aspernatur at enim, ullam sunt aliquam molestiae totam dicta odio.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque
+          consectetur obcaecati minus. Nisi, adipisci modi maxime provident
+          natus minima laboriosam porro quisquam quae, distinctio dicta
+          doloribus nihil eligendi repellat labore animi. Hic sit neque ea
+          aliquid nisi quos asperiores, error sunt dignissimos? Nemo error ut
+          illo enim maxime facilis fugit, quod sapiente nesciunt harum
+          voluptatem tenetur eaque fuga officia! Quos nesciunt alias quia
+          officiis vitae similique suscipit doloremque quod nobis sapiente. Id
+          ipsam magnam voluptates repellat, sunt, voluptatibus est soluta quis
+          vitae molestias eum debitis reprehenderit, accusantium dolore beatae
+          tenetur! Necessitatibus adipisci ratione explicabo quo dolorem fuga
+          maxime architecto consequatur! Modi iusto, labore illum, voluptas
+          ipsum, ad sapiente temporibus nobis quae fugit animi accusamus? Veniam
+          alias nisi voluptatibus, ipsum nihil illo iste perferendis vel totam
+          quae officia, unde explicabo molestias perspiciatis eligendi molestiae
+          culpa! Aspernatur at enim, ullam sunt aliquam molestiae totam dicta
+          odio.
         </p>
-    </div>
-    <div class="about my-5 text-justify">
-        <h1 class="text-2xl font-bold my-2">
-             section
-        </h1>
+      </div>
+      <div class="Dashboard my-5 text-justify">
+        <h1 class="text-2xl font-bold my-2">Dashboard section</h1>
         <p class="text-lg justify-full">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque consectetur obcaecati minus. Nisi, adipisci modi maxime provident natus minima laboriosam porro quisquam quae, distinctio dicta doloribus nihil eligendi repellat labore animi. Hic sit neque ea aliquid nisi quos asperiores, error sunt dignissimos? Nemo error ut illo enim maxime facilis fugit, quod sapiente nesciunt harum voluptatem tenetur eaque fuga officia! Quos nesciunt alias quia officiis vitae similique suscipit doloremque quod nobis sapiente. Id ipsam magnam voluptates repellat, sunt, voluptatibus est soluta quis vitae molestias eum debitis reprehenderit, accusantium dolore beatae tenetur! Necessitatibus adipisci ratione explicabo quo dolorem fuga maxime architecto consequatur! Modi iusto, labore illum, voluptas ipsum, ad sapiente temporibus nobis quae fugit animi accusamus? Veniam alias nisi voluptatibus, ipsum nihil illo iste perferendis vel totam quae officia, unde explicabo molestias perspiciatis eligendi molestiae culpa! Aspernatur at enim, ullam sunt aliquam molestiae totam dicta odio.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque
+          consectetur obcaecati minus. Nisi, adipisci modi maxime provident
+          natus minima laboriosam porro quisquam quae, distinctio dicta
+          doloribus nihil eligendi repellat labore animi. Hic sit neque ea
+          aliquid nisi quos asperiores, error sunt dignissimos? Nemo error ut
+          illo enim maxime facilis fugit, quod sapiente nesciunt harum
+          voluptatem tenetur eaque fuga officia! Quos nesciunt alias quia
+          officiis vitae similique suscipit doloremque quod nobis sapiente. Id
+          ipsam magnam voluptates repellat, sunt, voluptatibus est soluta quis
+          vitae molestias eum debitis reprehenderit, accusantium dolore beatae
+          tenetur! Necessitatibus adipisci ratione explicabo quo dolorem fuga
+          maxime architecto consequatur! Modi iusto, labore illum, voluptas
+          ipsum, ad sapiente temporibus nobis quae fugit animi accusamus? Veniam
+          alias nisi voluptatibus, ipsum nihil illo iste perferendis vel totam
+          quae officia, unde explicabo molestias perspiciatis eligendi molestiae
+          culpa! Aspernatur at enim, ullam sunt aliquam molestiae totam dicta
+          odio.
         </p>
-    </div>
-</main>
+      </div>
+      <div class="about my-5 text-justify">
+        <h1 class="text-2xl font-bold my-2">section</h1>
+        <p class="text-lg justify-full">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque
+          consectetur obcaecati minus. Nisi, adipisci modi maxime provident
+          natus minima laboriosam porro quisquam quae, distinctio dicta
+          doloribus nihil eligendi repellat labore animi. Hic sit neque ea
+          aliquid nisi quos asperiores, error sunt dignissimos? Nemo error ut
+          illo enim maxime facilis fugit, quod sapiente nesciunt harum
+          voluptatem tenetur eaque fuga officia! Quos nesciunt alias quia
+          officiis vitae similique suscipit doloremque quod nobis sapiente. Id
+          ipsam magnam voluptates repellat, sunt, voluptatibus est soluta quis
+          vitae molestias eum debitis reprehenderit, accusantium dolore beatae
+          tenetur! Necessitatibus adipisci ratione explicabo quo dolorem fuga
+          maxime architecto consequatur! Modi iusto, labore illum, voluptas
+          ipsum, ad sapiente temporibus nobis quae fugit animi accusamus? Veniam
+          alias nisi voluptatibus, ipsum nihil illo iste perferendis vel totam
+          quae officia, unde explicabo molestias perspiciatis eligendi molestiae
+          culpa! Aspernatur at enim, ullam sunt aliquam molestiae totam dicta
+          odio.
+        </p>
+      </div>
+    </main>
 
-
-<script src="./assets/js/app.js"></script>
-</body>
+    <script src="./assets/js/app.js"></script>
+  </body>
 </html>
